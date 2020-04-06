@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#imagem div {
+  margin: 10px auto;
+  width: 30%;
+  height: auto;
+  border: 1px solid silver;
+  text-align: center;
+  transition: ease 1s;
+}
+#imagem div img {
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+}
+#imagem div:hover {
+  cursor: pointer;
+  opacity: 100%;
+  transform: scale(0.9);
+}
+h2,
+h3 {
+  font-family: Arial;
+  text-align: justify;
+}
+.media {
+  padding: 20px;
+  color: darkred;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15pt;
+}
+.texto {
+  font-family: arial;
+  font-size: 10pt;
+  text-align: justify;
+  padding: 10px;
+}
+#paginas {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+}
+#paginas a {
+  margin: 0 5px;
+  padding: 0 5px;
+  text-decoration: none;
+  font-family: "Times New Roman";
+  color: black;
+  transition: ease 0.5s;
+}
+#paginas a:hover {
+  background-color: lightcoral;
+  color: darkred;
+  cursor: pointer;
+  opacity: 100%;
+  transform: scale(0.9);
+}
+#saida div {
+  display: block;
+  width: 30%;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid silver;
+  font-family: arial;
+  font-size: 10pt;
+  text-align: justify;
+}
+#saida div img {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 30%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #eeee;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+#saida div {
+  width: 32.5%;
+  padding: 50px;
+  box-shadow: 5px 5px 10px silver;
+  float: left;
+  font-family: arial;
+  border-radius: 20px;
+}
+h1 {
+  color: coral;
+}

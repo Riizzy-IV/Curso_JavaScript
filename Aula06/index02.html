@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/script02.js"></script>
+  </head>
+  <body id="body">
+    <div id="exibir">
+      <p id="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sit
+        ipsum pariatur numquam, cum quisquam assumenda dolores magni eveniet
+        rem, illum explicabo amet delectus cupiditate totam? Dolorum quia nulla
+        expedita. Ullam consectetur id quas, sequi doloremque eaque aut
+        perspiciatis est, veritatis sint iure dolore placeat ea fuga laboriosam
+        beatae officia? Sed odio aliquid eum ab provident architecto doloribus
+        dolores incidunt. Dolore officia accusantium reprehenderit possimus
+        harum voluptates sint? Eveniet eligendi laboriosam, praesentium eaque
+        necessitatibus harum reprehenderit architecto quam ad tempora, quod
+        voluptate non voluptatibus blanditiis et ex adipisci odio ipsam!
+      </p>
+    </div>
+    <hr />
+    <form action="" onsubmit="return false">
+      <select name="elemento" id="elemento">
+        <option value="body">Body</option>
+        <option value="exibir">Exibir</option>
+        <option value="texto">Texto</option>
+      </select>
+      <label>Selecione uma propriedade</label>
+      <select name="propriedade" id="propriedade">
+        <option value="padding">Padding</option>
+        <option value="margin">Margin</option>
+        <option value="font-size">Font size</option>
+        <option value="font-family">Font Family</option>
+        <option value="font-weight">Estilo da fonte </option>
+        <option value="background-color">Cor de fundo</option>
+        <option value="color">Cor da fonte</option>
+        <option value="opacity">Opacidade</option>
+        <option value="text-align">Alinhamento do Texto</option>
+        <option value="border">Borda</option>
+      </select>
+      <input type="text" name="valor" id="valor" />
+      <button onclick="mudar()">Mudar</button>
+    </form>
+  </body>
+</html>
