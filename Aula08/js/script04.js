@@ -9,7 +9,7 @@ pl.onclick = function () {
     p += 10;
     document.getElementById("img").style.marginLeft = p + "px";
   }
-  mv = window.setInterval(movimenta, 500);
+  mv = window.setInterval(movimenta, 00);
 };
 st.onclick = function () {
   clearTimeout(mv);
